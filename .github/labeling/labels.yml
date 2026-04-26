@@ -1,3 +1,9 @@
+- name: "api"
+  color: "0052CC"
+  description: "Issue or PR related to API design or implementation"
+  aliases:
+    - "api"
+
 - name: "blocked 🚧"
   color: "#e99695"
   description: "Issue or PR have some block to advance"
@@ -88,6 +94,12 @@
   aliases:
     - "evolvability"
 
+- name: "epic"
+  color: "1D0080"
+  description: "A large initiative grouping multiple user stories or features"
+  aliases:
+    - "epic"
+
 - name: "feature request ➕"
   color: "5319E7"
   description: "Issue about a new feature request"
@@ -99,6 +111,12 @@
   description: "New features added. Use only after approve feature request"
   aliases:
     - "feature"
+
+- name: "frontend"
+  color: "E1A000"
+  description: "Issue or PR related to frontend (UI/UX) implementation"
+  aliases:
+    - "frontend"
 
 - name: "good first issue 🧠"
   color: "CA3AC2"
